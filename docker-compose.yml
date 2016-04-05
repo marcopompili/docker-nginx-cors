@@ -1,0 +1,4 @@
+ngixn_cors:
+  image: emarcs/docker-nginx-cors
+  ports:
+    - 35001:80
