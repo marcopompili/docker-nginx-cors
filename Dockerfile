@@ -15,4 +15,6 @@ RUN ln -sf /dev/stdout /var/log/nginx/access.log \
 
 EXPOSE 80 443
 
+COPY ./cors /etc/nginx/
+
 COPY startup /etc/minit/
