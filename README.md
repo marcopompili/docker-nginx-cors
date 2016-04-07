@@ -2,6 +2,8 @@
 
 Docker image for Nginx with CORS support.
 
+[![](https://badge.imagelayers.io/emarcs/nginx-cors:latest.svg)](https://imagelayers.io/?images=emarcs/nginx-cors:latest 'Get your own badge on imagelayers.io')
+
 ## Docker image
 
 An image based on Debian Jessie with Nginx configured to
