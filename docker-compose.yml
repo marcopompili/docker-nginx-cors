@@ -10,6 +10,6 @@ services:
     links:
       - node:node_app
   node:
-    image: node:4.4-onbuild
+    image: node:4-onbuild
     volumes:
       - ./example:/usr/src/app
